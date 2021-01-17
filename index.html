@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
+  <title>Document</title>
+</head>
+<body>
+  
+  <script src="scripts/app.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <sc src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></sc>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+  <sc src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></sc>
+
+  <script>
+
+  </script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+
+  Firebase Authentication
+
+  <div>
+    メールアドレス<input id="mailAddress" type="mailAddress" required/>
+  </div>
+  <div>
+    パスワード<input id="password" type="password" required/>
+  </div>
+    <button id="login">ログイン</button>
+    <button id="register">新規登録</button>
+
+    <div class="container">
+      <input type="email" id="textEmail" placeholder="Email">
+      <input type="password" id="textPassword" placeholder="Password">
+
+      <button id="btnLogin" class="btn btn-action">Log In</button>
+      <button id="btnSignUp" class="btn btn-secondary">Sign Up</button>
+      <button id="btnLogout" class="btn btn-action hide">Log Out</button>
+    </div>
+
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+
+  <body>
+    <!-- Previously loaded Firebase SDKs -->
+  
+    <script>
+      // TODO: Replace the following with your app's Firebase project configuration
+      // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+      var firebaseConfig = {
+        apiKey: "AIzaSyCj1zsGo6RsTWKU1OQgCKwSzSC5ST7L3_Q",
+        authDomain: "fbstudy01.firebaseapp.com",
+        databaseURL: "https://fbstudy01.firebaseio.com",
+        projectId: "fbstudy01",
+        storageBucket: "fbstudy01.appspot.com",
+        messagingSenderId: "753037162385",
+        appId: "1:753037162385:web:68f76e6272a7e44e55cc30",
+        measurementId: "G-KXGZY2D1TQ"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+  
+
+
+
+
+</body>
+</html>
